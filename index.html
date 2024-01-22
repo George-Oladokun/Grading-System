@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grading System</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Grading System</h2>
+    <form id="gradeForm">
+        <div class="form-group">
+            <label for="subject1">Enetr your First Subject score</label>
+            <input type="number" class="form-control" id="subject1" required>
+        </div>
+        <div class="form-group">
+            <label for="subject2">Enter your second subject score</label>
+            <input type="number" class="form-control" id="subject2" required>
+        </div>
+        <div class="form-group">
+            <label for="subject3">Enter your third subject score</label>
+            <input type="number" class="form-control" id="subject3" required>
+        </div>
+        <div class="form-group">
+            <label for="subject3">Enter your Last subject score</label>
+            <input type="number" class="form-control" id="subject3" required>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="calculateGrade()">Calculate Grade</button>
+    </form>
+
+    <div id="result" class="mt-4"></div>
+</div>
+
+
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
